@@ -1,4 +1,5 @@
 # Facialytics (Advanced face recognition system with real Time detection )
+# hey this is the code for collecting the data for the face recognition system. This code will capture the images from the webcam and store them in the specified folder. The images are captured when the face is detected in the frame. The number of images to capture per person can be specified using the num_samples parameter. The images are resized to 160x160 pixels before saving.
 import cv2
 import os
 import numpy as np
